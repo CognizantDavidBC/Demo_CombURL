@@ -1,11 +1,19 @@
-import Foundation
+import UIKit
 
-struct PhotoInfo: Codable {
+struct PhotoInfo: Codable, Identifiable {
+    let id = UUID()
     var title: String
     var description: String
     var url: URL?
     var copyright: String?
     var date: String
+    var image: UIImage?
+    
+    var formattedDate: Date {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter.date(from: self.date) ?? Date()
+    }
     
     enum CodingKeys: String, CodingKey {
         case title = "title"

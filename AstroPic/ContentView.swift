@@ -2,7 +2,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        DayPicView()
+        NavigationView {
+            APODListView()
+                .navigationTitle(Text("APIC"))
+        }
     }
 }
 

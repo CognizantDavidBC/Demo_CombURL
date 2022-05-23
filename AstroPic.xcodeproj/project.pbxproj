@@ -17,6 +17,13 @@
 		7D1C5DD7283B7914006B6F97 /* DayPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DD6283B7914006B6F97 /* DayPicView.swift */; };
 		7D1C5DD9283B7A21006B6F97 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DD8283B7A21006B6F97 /* PhotoInfo.swift */; };
 		7D1C5DDB283B8BBB006B6F97 /* SelectDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DDA283B8BBB006B6F97 /* SelectDateView.swift */; };
+		7D1C5DDD283BA100006B6F97 /* MultiNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DDC283BA100006B6F97 /* MultiNetworkManager.swift */; };
+		7D1C5DDF283BA153006B6F97 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DDE283BA153006B6F97 /* API.swift */; };
+		7D1C5DE1283BCB6A006B6F97 /* APODListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DE0283BCB6A006B6F97 /* APODListView.swift */; };
+		7D1C5DE3283BCC8C006B6F97 /* APODRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DE2283BCC8C006B6F97 /* APODRow.swift */; };
+		7D1C5DE5283BDAEB006B6F97 /* APODDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DE4283BDAEB006B6F97 /* APODDetailView.swift */; };
+		7D1C5DE7283BE8F3006B6F97 /* InteractiveImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DE6283BE8F3006B6F97 /* InteractiveImageView.swift */; };
+		7D1C5DE9283BEDF4006B6F97 /* CGSize+Arith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C5DE8283BEDF4006B6F97 /* CGSize+Arith.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,13 @@
 		7D1C5DD6283B7914006B6F97 /* DayPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPicView.swift; sourceTree = "<group>"; };
 		7D1C5DD8283B7A21006B6F97 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 		7D1C5DDA283B8BBB006B6F97 /* SelectDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateView.swift; sourceTree = "<group>"; };
+		7D1C5DDC283BA100006B6F97 /* MultiNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiNetworkManager.swift; sourceTree = "<group>"; };
+		7D1C5DDE283BA153006B6F97 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7D1C5DE0283BCB6A006B6F97 /* APODListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODListView.swift; sourceTree = "<group>"; };
+		7D1C5DE2283BCC8C006B6F97 /* APODRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODRow.swift; sourceTree = "<group>"; };
+		7D1C5DE4283BDAEB006B6F97 /* APODDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODDetailView.swift; sourceTree = "<group>"; };
+		7D1C5DE6283BE8F3006B6F97 /* InteractiveImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveImageView.swift; sourceTree = "<group>"; };
+		7D1C5DE8283BEDF4006B6F97 /* CGSize+Arith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Arith.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,7 @@
 			children = (
 				7D1C5DBE283B757F006B6F97 /* AstroPicApp.swift */,
 				7D1C5DC0283B757F006B6F97 /* ContentView.swift */,
+				7D1C5DE8283BEDF4006B6F97 /* CGSize+Arith.swift */,
 				7D1C5DD3283B76D7006B6F97 /* Helper */,
 				7D1C5DCC283B7598006B6F97 /* Model */,
 				7D1C5DCD283B759C006B6F97 /* View */,
@@ -96,6 +111,10 @@
 			children = (
 				7D1C5DD6283B7914006B6F97 /* DayPicView.swift */,
 				7D1C5DDA283B8BBB006B6F97 /* SelectDateView.swift */,
+				7D1C5DE0283BCB6A006B6F97 /* APODListView.swift */,
+				7D1C5DE4283BDAEB006B6F97 /* APODDetailView.swift */,
+				7D1C5DE2283BCC8C006B6F97 /* APODRow.swift */,
+				7D1C5DE6283BE8F3006B6F97 /* InteractiveImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				7D1C5DCF283B75B9006B6F97 /* NetworkManager.swift */,
+				7D1C5DDC283BA100006B6F97 /* MultiNetworkManager.swift */,
+				7D1C5DDE283BA153006B6F97 /* API.swift */,
 				7D1C5DD1283B7622006B6F97 /* Constants.swift */,
 			);
 			path = ViewModel;
@@ -190,11 +211,18 @@
 				7D1C5DDB283B8BBB006B6F97 /* SelectDateView.swift in Sources */,
 				7D1C5DD9283B7A21006B6F97 /* PhotoInfo.swift in Sources */,
 				7D1C5DD7283B7914006B6F97 /* DayPicView.swift in Sources */,
+				7D1C5DE7283BE8F3006B6F97 /* InteractiveImageView.swift in Sources */,
 				7D1C5DD0283B75B9006B6F97 /* NetworkManager.swift in Sources */,
+				7D1C5DDF283BA153006B6F97 /* API.swift in Sources */,
 				7D1C5DC1283B757F006B6F97 /* ContentView.swift in Sources */,
+				7D1C5DDD283BA100006B6F97 /* MultiNetworkManager.swift in Sources */,
 				7D1C5DBF283B757F006B6F97 /* AstroPicApp.swift in Sources */,
+				7D1C5DE5283BDAEB006B6F97 /* APODDetailView.swift in Sources */,
+				7D1C5DE3283BCC8C006B6F97 /* APODRow.swift in Sources */,
 				7D1C5DD5283B76E8006B6F97 /* URL+withQuery.swift in Sources */,
 				7D1C5DD2283B7622006B6F97 /* Constants.swift in Sources */,
+				7D1C5DE1283BCB6A006B6F97 /* APODListView.swift in Sources */,
+				7D1C5DE9283BEDF4006B6F97 /* CGSize+Arith.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
